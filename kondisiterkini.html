@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<head>
+    <title>Web Kolaborasi_IX-2_13</title>
+    <link rel="stylesheet" href="kumpulananalisis.css">
+
+</head>
+
+<style>
+    #SDGs {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        padding: 20px;
+    }
+
+    #SDGs #description {
+        padding: 20px;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    #SDGs .goals-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+
+    #SDGs .goal-card {
+        padding: 15px;
+        background-color: #2c7be5;
+        color: #fff;
+        text-align: center;
+        font-size: 1em;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    #SDGs .goal-card:hover {
+        background-color: #1a5db8;
+        transform: scale(1.05);
+    }
+
+    #SDGs .goal-display {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #SDGs .goal-display img {
+        max-width: 300px;
+        border-radius: 10px;
+        display: none;
+    }
+
+    #SDGs #goal-title {
+        margin-bottom: 20px;
+    }
+</style>
+
+
+<body>
+
+    <div class="Header">
+        <img src="header il kolaborasi.png" alt="Header Image" class="header-image">
+    </div>
+    <ul class="navbar">
+        <li><a href="index.html"><img src="beranda.png" alt="Beranda"></a></li>
+        <li class="dropdown">
+
+         <a href="SDGs.html"><img src="sdg.kjhfs.png" alt="SDGs"></a>
+
+            <li class="dropdown">
+            <a href="analisis.html"><img src="analisis.png" alt="Analisis"></a>
+            <ul class="Dropdown">
+                <li><a href="kondisiterkini.html"><img src="kondisi.png" alt="Kondisi Terkini"></a></li>
+                <li><a href="tantangan.html"><img src="tantangan.png" alt="Tantangan"></a></li>
+                <li><a href="potensi.html"><img src="potensi.png" alt="Potensi"></a></li>
+                <li><a href="peranmasyarakat.html"><img src="peran.png" alt="Peran Masyarakat"></a></li>
+            </ul>
+         </li>
+
+         <a href="solusi.html"><img src="solusi.png" alt="Solusi"></a>
+
+         <li class="dropdown">
+            <a href="kerjasama.html"><img src="kerjasama.png" alt="Kerjasama"></a>
+            <ul class="Dropdown">
+                <li><a href="bilateral.html"><img src="bilateral.png" alt="Bilateral"></a></li>
+                <li><a href="regional.html"><img src="regional.png" alt="Regional"></a></li>
+                <li><a href="multilateral.html"><img src="multilateral.png" alt="Multilateral"></a></li>
+            </ul>
+         </li>
+
+         <li class="dropdown">
+            <a href="tentangkami.html"><img src="refleksi.png" alt="Tentang Kami"></a>
+            <ul class="Dropdown">
+                <li><a href="refleksi.html"><img src="saran.png" alt="Refleksi"></a></li>
+                <li><a href="kesimpulan.html"><img src="kesimpulan.png" alt="Kesimpulan"></a></li>
+            </ul>
+         </li>
+
+         <li><a href="daftar.html"><img src="dafpus.png" alt="Daftar Pustaka"></a></li>
+     </ul>
+
+    <div class="column">
+                <h1 align="center">Kondisi Terkini</h1>
+
+                    <tr>
+                        <td>
+                            <br>
+                            <strong>SDG 1 (Tanpa Kemiskinan)</strong>
+                            <br>
+                            Indonesia masih menghadapi kemiskinan dan kesenjangan pendapatan yang tinggi. Banyak masyarakat miskin sulit mengakses layanan dasar, permodalan, dan keadilan. Program pemerintah sudah banyak, tetapi implementasinya sering terkendala pengawasan dan regulasi.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 2 (Tanpa Kelaparan)</strong>
+                            <br>
+                            Ada kemajuan seperti program pencegahan stunting, bantuan pangan, dan penguatan petani. Namun, masalah stunting, ketidakmerataan akses pangan, dan ketahanan pangan masih menjadi tantangan besar, terutama untuk kelompok rentan.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 3 (Kehidupan Sehat dan Sejahtera)</strong>
+                            <br>
+                            Program JKN-KIS meningkatkan akses kesehatan bagi banyak warga, tetapi kesenjangan layanan antara daerah, rendahnya kesadaran kesehatan, polusi, dan dampak pandemi tetap menjadi hambatan.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 4 (Pendidikan Berkualitas)</strong>
+                            <br>
+                            Tantangan utama adalah angka putus sekolah yang masih tinggi, kualitas pendidikan yang belum merata, serta kesenjangan fasilitas antara daerah. Pemerintah menjalankan program seperti KIP dan PIP, dan partisipasi masyarakat meningkat.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 5 (Kesetaraan Gender)</strong>
+                            <br>
+                            Budaya patriarki dan diskriminasi masih kuat. Meskipun ada komitmen pemerintah, perempuan masih kurang mendapat akses dan partisipasi setara dalam berbagai bidang.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 6 (Air Bersih dan Sanitasi)</strong>
+                            <br>
+                            Indonesia masih kekurangan pengelolaan sumber daya air yang baik, akses air bersih tidak merata, dan polusi air cukup parah. Masalah kesehatan seperti diare masih tinggi akibat sanitasi buruk.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 7 (Energi Bersih dan Terjangkau)</strong>
+                            <br>
+                            Ada kemajuan dalam transisi energi, tetapi akses energi belum merata di seluruh Indonesia. Tantangan utamanya adalah peralihan dari energi fosil dan isu lingkungan seperti polusi serta deforestasi.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 8 (Pekerjaan Layak dan Pertumbuhan Ekonomi)</strong>
+                            <br>
+                            Indonesia menunjukkan komitmen tinggi, tetapi masih mengalami ketimpangan regional, kesenjangan ekonomi, serta tantangan lingkungan yang menghambat pertumbuhan ekonomi yang berkelanjutan.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 9 (Industri, Inovasi, dan Infrastruktur))</strong>
+                            <br>
+                            Industri masih terkonsentrasi di Jawa, sehingga terjadi ketimpangan. Infrastruktur dan akses teknologi belum merata. Ketergantungan pada energi fosil dan deforestasi juga menghambat kemajuan.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 10 (Berkurangnya Kesenjangan)</strong>
+                            <br>
+                            Masih ada ketimpangan dalam akses pendidikan, sanitasi, pekerjaan, serta diskriminasi terhadap kelompok minoritas. Meskipun pemerintah menunjukkan komitmen, ketidaksetaraan masih menjadi masalah serius.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 11 (Kota dan Permukiman Berkelanjutan)</strong>
+                            <br>
+                            Urbanisasi cepat menyebabkan kemacetan, polusi, kurangnya ruang hijau, dan ketimpangan perumahan. Upaya pemerintah sudah ada, tetapi tantangan perkotaan tetap besar.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 12 (Konsumsi dan Produksi Berkelanjutan)</strong>
+                            <br>
+                            Masalah terbesar adalah pengelolaan sampah, limbah industri, dan minimnya penegakan hukum lingkungan. Upaya seperti target pengurangan sampah dan program komunitas mulai berjalan tetapi belum optimal.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 13 (Penanganan Perubahan Iklim)</strong>
+                            <br>
+                            Indonesia memiliki komitmen kuat secara global, tetapi sebagai negara kepulauan, dampak perubahan iklim sangat besar. Perlu upaya ekstra dalam mitigasi, adaptasi, dan pengurangan emisi gas rumah kaca                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 14 (Ekosistem Lautan)</strong>
+                            <br>
+                            Polusi laut dan degradasi lingkungan menjadi tantangan utama. Ada beberapa program konservasi seperti kerja sama universitas dan pemerintah daerah, tetapi kerusakan ekosistem laut masih mengkhawatirkan.                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 15 (Ekosistem Daratan)</strong>
+                            <br>
+                            Masalah terbesar adalah deforestasi, degradasi lahan, dan hilangnya keanekaragaman hayati. Program seperti konsep "Kota Hutan" di IKN menunjukkan komitmen besar, tetapi upaya harus diperkuat.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 16 (Perdamaian, Keadilan, dan Institusi Tangguh)</strong>
+                            <br>
+                            Tantangan utama adalah korupsi, lemahnya penegakan hukum, serta pelanggaran hak sipil. Ada kemajuan seperti bantuan hukum gratis, tetapi kualitas peradilan masih perlu banyak perbaikan.
+                        </td>
+                        <td>
+                            <br>
+                            <strong>SDG 17 (Kemitraan untuk Mencapai Tujuan)</strong>
+                            <br>
+                        Indonesia memiliki komitmen global yang tinggi dan melibatkan banyak pihak, tetapi implementasi sering terhambat oleh penegakan hukum lemah, anggaran terbatas, dan ketimpangan sosial.                        </td>
+    </div>
+                    
+    <!-- Footer dengan Image -->
+    <div class="footer">
+        <img src="footer il kolaborasi.png" alt="footer Image" class="footer-image">
+    </div>
